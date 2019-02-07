@@ -62,7 +62,6 @@ function createParams (params, assert) {
     var params = assign({}, extend, child)
 
     params.blockchain = assign({}, extend.blockchain, child.blockchain)
-    delete params.blockchain.checkpoints
 
     params.net = assign({}, extend.net, {
       dnsSeeds: null,
