@@ -1,6 +1,6 @@
-var createParams = require('./lib/utils.js').createParams
+var createParams = require('./src/utils.js').createParams
 
 module.exports = createParams({
-  blockchain: require('./lib/blockchain.js'),
+  blockchain: require('./src/blockchain.js'),
   net: {}
 }, false)
