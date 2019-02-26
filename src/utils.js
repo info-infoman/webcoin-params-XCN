@@ -1,4 +1,4 @@
-var proto = require('bitcoin-protocol')
+var proto = require('bitcoin-protocol-XCN')
 var struct = proto.struct
 var defaultNetMessages = proto.messages.defaultMessages
 var DefaultBlock = require('bitcoinjs-lib').Block
